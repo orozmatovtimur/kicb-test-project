@@ -1,4 +1,3 @@
-import React from 'react';
 import { DashboardCharts } from '../components/DashboardCharts';
 import { BankCardsRow } from '../components/BankCardsRow';
 

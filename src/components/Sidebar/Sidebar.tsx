@@ -1,4 +1,3 @@
-import React from 'react'
 import './Sidebar.scss';
 import { Box } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
