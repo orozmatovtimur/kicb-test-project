@@ -1,0 +1,63 @@
+.bank-cards-row-wrapper {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bank-cards-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  padding: 24px 0 40px 0;
+  margin: 0;
+  gap: 0 24px;
+  overflow: hidden;
+}
+
+.bank-cards-row::-webkit-scrollbar {
+  display: none;
+}
+
+.bank-card-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  background: rgba(255,255,255,0.85);
+  border: none;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.bank-card-arrow.left {
+  left: 0;
+}
+.bank-card-arrow.right {
+  right: 0;
+}
+
+// @media (max-width: 1400px) {
+//   .bank-cards-row {
+//     gap: 0 12px;
+//   }
+// }
+// @media (max-width: 1200px) {
+//   .bank-cards-row {
+//     flex-wrap: wrap;
+//     overflow-x: auto;
+//     gap: 0 8px;
+//   }
+// } 

@@ -1,0 +1,55 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+body {
+  background: #f5f6fa;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #2e3b4e;
+}
+
+[data-theme='dark'] {
+  background: #181c23;
+  color: #f5f6fa;
+}
+
+[data-theme='dark'] body {
+  background: #181c23;
+  color: #f5f6fa;
+}
+
+[data-theme='dark'] .chart-block,
+[data-theme='dark'] .bank-card {
+  background: #232a36 !important;
+  color: #f5f6fa !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+}
+
+[data-theme='dark'] .sidebar {
+  background: #232a36 !important;
+  color: #f5f6fa !important;
+}
+
+[data-theme='dark'] .menu-item:hover {
+  background: rgba(255,255,255,0.06) !important;
+}
+
+[data-theme='dark'] .MuiAppBar-root {
+  background: #232a36 !important;
+  color: #f5f6fa !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #f5f5f5;
+}
+::-webkit-scrollbar-thumb {
+  background: #e0e0e0;
+  border-radius: 8px;
+}
