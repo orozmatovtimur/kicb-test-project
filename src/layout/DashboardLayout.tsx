@@ -1,5 +1,5 @@
 import { Box, Drawer, Toolbar } from '@mui/material';
-import { Sidebar } from '../components/Sidebar/Sidebar';
+import { Sidebar } from '../components/Sidebar/sidebar';
 import { Header } from '../components/Header/Header';
 
 const drawerWidth = 240;
